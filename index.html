@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freehand-landing-page</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__logo">
+      <a href="#">
+        <img class="header__logo-img" src="assets/Logo.svg" alt="Freehand">
+      </a>
+    </div>
+
+    <nav class="header__nav hide-for-mobile">
+      <ul class="header__nav-items">
+        <li><a href="#" class="nav-link text-primary">home</a></li>
+        <li><a href="#" class="nav-link text-primary">portfolio</a></li>
+        <li><a href="#" class="nav-link text-primary">pages</a></li>
+        <li><a href="#" class="nav-link text-primary">blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__cta hide-for-mobile">
+      <a href="#" class="btn btn-secondary">sign in</a>
+      <a href="#" class="btn btn-primary">login</a>
+    </div>
+
+    <button class="header__toggle hide-for-desktop" id="headerToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="header__mobile-menu hide-for-desktop" id="headerMobileMenu">
+      <li><a href="#" class="nav-link text-primary">home</a></li>
+      <li><a href="#" class="nav-link text-primary">portfolio</a></li>
+      <li><a href="#" class="nav-link text-primary">pages</a></li>
+      <li><a href="#" class="nav-link text-primary">blog</a></li>
+    </ul>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <div class="hero__text">
+        <h1 class="hero__text-title">
+          Freehand your brand with a beautiful website
+        </h1>
+        <p class="hero__text-subtitle">
+          Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+        </p>
+        <div class="buttons">
+          <a href="#" class="btn btn-blue">View projects</a>
+          <a href="#" class="btn btn-blue-secondary">learn more</a>
+        </div>
+      </div>
+
+      <div class="hero__img hide-for-mobile">
+        <img src="./assets/hero-img.jpg" alt="hero-img">
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <section class="services">
+      <div class="section-header">
+        <span class="section-header__title text-grey">
+          OUR SERVICES
+        </span>
+        <h2 class="section-header__subtitle">
+          We build experience
+        </h2>
+        <p class="section-header__desc text-grey">
+          Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+        </p>
+      </div>
+
+      <div class="services__items grid mb-5">
+        <article class="service__item">
+          <div class="service__item-icon">
+            <img src="./assets/icon-1.svg" class="service__item-icon-img" alt="Design">
+          </div>
+          <h3 class="service__item-title">Design</h3>
+          <p class="service__item-desc">
+            Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+          </p>
+          <a href="#" class="link">Learn more</a>
+        </article>
+
+        <article class="service__item">
+          <div class="service__item-icon">
+            <img src="./assets/icon-2.svg" class="service__item-icon-img" alt="Application">
+          </div>
+          <h3 class="service__item-title">Application</h3>
+          <p class="service__item-desc">
+            Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+          </p>
+          <a href="#" class="link">Learn more</a>
+        </article>
+
+        <article class="service__item">
+          <div class="service__item-icon">
+            <img src="./assets/icon-3.svg" class="service__item-icon-img" alt="Ecommerce">
+          </div>
+          <h3 class="service__item-title">Ecommerce</h3>
+          <p class="service__item-desc">
+            Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+          </p>
+          <a href="#" class="link">Learn more</a>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <section class="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__title text-grey">
+          OUR TIPS FOR YOU
+        </span>
+        <h2 class="section-header__subtitle">
+          Important features
+        </h2>
+        <p class="section-header__desc text-grey">
+          Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+        </p>
+      </div>
+
+      <div class="features-items grid mb-5">
+        <div class="feature card-img-1">
+          <h2>Expand your reading. Expand your mind.</h2>
+        </div>
+        <div class="feature card-img-2">
+          <h2>120 million curious readers and growing.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plans mb-5">
+    <div class="container">
+      <div class="section-header mb-5">
+        <h2 class="section-header__subtitle">
+          Choose the plan that’s right for your business
+        </h2>
+        <p class="section-header__desc text-grey">
+          Lorem ipsum dolor sit amet, coectetur adipiscing elit. Suspendisse varius enim in eros .
+        </p>
+      </div>
+
+      <div class="plans-options grid">
+        <article class="plan">
+          <h3>Started plan</h3>
+          <p class="text-secondary fw-bold text-lg">Free</p>
+          <span class="text-grey">per month</span>
+          <p class="plan-desc">Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
+          <a href="#" class="btn btn-primary">get started</a>
+        </article>
+
+        <article class="plan">
+          <h3>Enterprise plan</h3>
+          <p class="text-green fw-bold text-lg">$20.00</p>
+          <span class="text-grey">per month</span>
+          <p class="plan-desc">Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
+          <a href="#" class="btn btn-secondary">get started</a>
+        </article>
+
+        <article class="plan">
+          <h3>Started plan</h3>
+          <p class="text-red fw-bold text-lg">$50.00</p>
+          <span class="text-grey">per month</span>
+          <p class="plan-desc">Lorem ipsum dolor sit amet, coectetur adipiscing elit.</p>
+          <a href="#" class="btn btn-secondary">get started</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="outro mb-5">
+      <h2 class="text-white">Get started today and try 30 days free</h2>
+      <p class="text-white">No contact, no set-up costs, just awesome way to organise your money.</p>
+      <div class="buttons">
+        <a href="#" class="btn btn-white">try it for free</a>
+        <a href="#" class="btn btn-white-secondary">watch demo</a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="grid">
+        <li class="col-1">
+          <img src="../public/assets/light-Logo.svg" class="light-logo" alt="">
+          <p class="text-white">
+            We're brand strategy and digital design agency, building brands that matter in culture.
+          </p>
+          <ul class="flex social-links">
+            <li>
+              <img src="../public/assets/Group 11.svg" alt="">
+            </li>
+            <li>
+              <img src="../public/assets/Group 12.svg" alt="">
+            </li>
+            <li>
+              <img src="../public/assets/Group 13.svg" alt="">
+            </li>
+            <li>
+              <img src="../public/assets/Group 14.svg" alt="">
+            </li>
+            <li>
+              <img src="../public/assets/Group 15.svg" alt="">
+            </li>
+          </ul>
+        </li>
+
+        <li class="col-2">
+          <h3 class="text-white">Services</h3>
+          <ul>
+            <li><a href="#" class="text-white">Blog</a></li>
+            <li><a href="#" class="text-white">Partner with freehand</a></li>
+            <li><a href="#" class="text-white">Apps & Plugins</a></li>
+            <li><a href="#" class="text-white">FAQ</a></li>
+            <li><a href="#" class="text-white">UI Kit</a></li>
+          </ul>
+        </li>
+
+        <li class="col-3">
+          <h3 class="text-white">Company</h3>
+          <ul>
+            <li><a href="#" class="text-white">About</a></li>
+            <li><a href="#" class="text-white">Terms</a></li>
+            <li><a href="#" class="text-white">Privacy Policy</a></li>
+            <li><a href="#" class="text-white">Careers</a></li>
+          </ul>
+        </li>
+
+        <li class="text-white col-4">
+          <h3>CONTACT US</h3>
+          <ul>
+            <li>We’re Always Happy to Help</li>
+            <li>mail@freehand.io</li>
+            <li class="flex">
+              <div>
+                <img src="../public/assets/gdpr.png" alt="">
+              </div>
+              <div>
+                <img src="../public/assets/trustpilot.svg" alt="">
+              </div>
+            </li>
+          </ul>
+
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
